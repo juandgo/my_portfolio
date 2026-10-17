@@ -1,11 +1,14 @@
 
-// para imprimir por consola
-console.log("Hola, Mundo!");
 
+// El segundo argumento es el valor por defecto que aparecerá en el campo
+let entrada = prompt("Ingresa tu edad:", "18");
 
+// Convertir la respuesta a número
+let edad = Number(entrada);
 
-
-// // funcion para imprimir  la pajina
-// message = "This is a sample script.";
-// print(message);
+if( edad >= 18) {
+    alert("Eres mayor de edad.");
+}else{
+    alert("Eres menor de edad.");
+}
 
